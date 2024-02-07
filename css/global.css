@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+  background-color: var(--fundoCor);
+  color: var(--textoCor);
+
+  --fundoCor: #fff;
+  --textoCor: #1a263c;
+
+  --primariaPrincipal: #007aff;
+  --primariaOpacidade: #d3e8ff;
+  --secundariaPrincipal: #0bffa1;
+  --terciariaPrincipal: #1a263c;
+}
+
+p,
+h1,
+h2,
+h3 {
+  margin: 0;
+}
+
+form {
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  width: 320px;
+  height: 50px;
+  border-radius: 10px;
+  border-style: none;
+  background: #fff;
+  padding-left: 12px;
+}
+
+label {
+  color: var(--terciariaPrincipal);
+  font-weight: 700;
+  padding-left: 12px;
+}
+
+.link-normal {
+  color: var(--terciariaPrincipal);
+  font-weight: 300;
+  text-decoration-line: underline;
+}
+
+.link-normal:active {
+  color: var(--primariaPrincipal);
+}
+
+.button {
+  border-radius: 30px;
+  background: var(--primariaPrincipal);
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.109px;
+  text-align: center;
+  padding: 17px 0;
+}
+
+.button:active {
+  background: var(--terciariaPrincipal);
+}
+
+.logo-rodape img {
+  height: 20px;
+  width: auto;
+  padding: 0 10px 25px 10px;
+}
