@@ -6,14 +6,11 @@
 }
 
 .logo-login {
-  width: 165px;
-  margin: 50px auto 25px auto;
+  margin: 3.125rem auto 1.5rem auto;
 }
 
-.container {
-  background: var(--primariaOpacidade);
-  border-radius: 50px 50px 0px 0px;
-  margin: 0;
+.logo-login img {
+  width: 165px;
 }
 
 .conteudo-login {
@@ -22,32 +19,31 @@
   align-items: center;
 }
 
-.conteudo-login h1 {
-  color: var(--terciariaPrincipal);
+.conteudo-login h2 {
+  color: var(--terciaria);
   text-align: center;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 700;
-  letter-spacing: 0.109px;
-  margin-top: 28px;
-  margin-bottom: 35px;
+  margin-top: 1.75rem;
+  margin-bottom: 2rem;
 }
 
 .img-login {
   width: 190px;
-  margin-bottom: 27px;
+  margin-bottom: 1.6rem;
 }
 
 .conteudo-login .button {
   width: 320px;
-  margin-top: 40px;
-  margin-bottom: 32px;
+  margin-top: 2.5rem;
+  margin-bottom: 2rem;
 }
 
 .conteudo-login p {
-  margin-bottom: 32px;
+  margin-bottom: 2rem;
 }
 
 .form-login input {
-  margin-top: 12px;
-  margin-bottom: 20px;
+  margin-top: 0.75rem;
+  margin-bottom: 1.25rem;
 }

@@ -1,0 +1,80 @@
+.botao-voltar {
+  width: 24px;
+  margin: 1.3rem auto 0.9rem 1.6rem;
+}
+
+.conteudo-questionario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 360px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.conteudo-questionario h1 {
+  margin-top: 2.5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  padding: 0 1.5rem;
+  font-weight: 700;
+}
+
+.conteudo-questionario img {
+  margin-top: 2.6rem;
+  margin-bottom: 3rem;
+}
+
+.form-questionario {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.form-questionario legend {
+  margin-bottom: 1.15rem;
+}
+
+.custom-radio {
+  margin-left: 0.8rem;
+  margin-bottom: 2rem;
+}
+
+.custom-radio input {
+  display: none;
+}
+
+.custom-radio input + label:before {
+  content: "";
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  border: 2px solid var(--terciaria);
+  opacity: 0.5;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.75rem;
+  margin-bottom: 3px;
+}
+
+.custom-radio input:checked + label:before {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='9' viewBox='0 0 12 9' fill='none'%3E%3Cpath d='M1.39417 5.52874L3.78175 7.8345L10.3476 1.49365' stroke='%231A263C' stroke-width='2' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 1;
+}
+
+.custom-radio label {
+  margin-right: 3.25rem;
+  font-weight: 400;
+  font-size: 0.875rem;
+}
+
+.conteudo-questionario .button {
+  width: 320px;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.conteudo-questionario p {
+  margin: 0 1.25rem 0 1.25rem;
+}

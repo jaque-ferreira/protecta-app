@@ -5,20 +5,27 @@
   flex-wrap: nowrap;
 }
 
+.logo-cadastro {
+  margin: 1.7rem auto 1.3rem auto;
+}
+
+.logo-cadastro img {
+  width: 113px;
+}
+
 .conteudo-cadastro {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.conteudo-cadastro h1 {
-  color: var(--terciariaPrincipal);
+.conteudo-cadastro h2 {
+  color: var(--terciaria);
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;
-  letter-spacing: 0.00681rem;
   margin-top: 2.25rem;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .form-cadastro input {
@@ -26,21 +33,22 @@
   display: grid;
 }
 
-#nascimento {
-  width: 11.1rem;
-}
-
-#cep {
-  width: 8.06rem;
-}
-
-.lado-a-lado {
-  display: inline;
-}
-
 .conteudo-cadastro p {
   margin-top: 0.8rem;
   text-align: center;
+}
+
+.lado-a-lado {
+  display: flex;
+  gap: 10px;
+}
+
+#nascimento {
+  width: 178px;
+}
+
+#cep {
+  width: 118px;
 }
 
 .conteudo-cadastro .button {

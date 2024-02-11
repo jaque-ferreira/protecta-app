@@ -9,11 +9,12 @@ body {
 
   --fundoCor: #fff;
   --textoCor: #1a263c;
+  --cinza: #f1f1f1;
 
-  --primariaPrincipal: #007aff;
-  --primariaOpacidade: #d3e8ff;
-  --secundariaPrincipal: #0bffa1;
-  --terciariaPrincipal: #1a263c;
+  --primaria: #007aff;
+  --opacidade: #d3e8ff;
+  --secundaria: #0bffa1;
+  --terciaria: #1a263c;
 }
 
 p,
@@ -23,55 +24,63 @@ h3 {
   margin: 0;
 }
 
+.container {
+  background: var(--opacidade);
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+  margin: 0;
+  /* height: 100vh; */
+}
+
 form {
-  padding: 0px 20px;
+  padding: 0rem 1.25rem;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 input {
   width: 320px;
   height: 50px;
-  border-radius: 10px;
+  border-radius: 0.625rem;
   border-style: none;
   background: #fff;
-  padding-left: 12px;
+  padding-left: 0.75rem;
 }
 
 label {
-  color: var(--terciariaPrincipal);
+  color: var(--terciaria);
   font-weight: 700;
-  padding-left: 12px;
+  padding-left: 0.75rem;
 }
 
 .link-normal {
-  color: var(--terciariaPrincipal);
+  color: var(--terciaria);
   font-weight: 300;
   text-decoration-line: underline;
 }
 
 .link-normal:active {
-  color: var(--primariaPrincipal);
+  color: var(--primaria);
 }
 
 .button {
-  border-radius: 30px;
-  background: var(--primariaPrincipal);
+  border-radius: 1.875rem;
+  background: var(--primaria);
   color: #fff;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 700;
-  letter-spacing: 0.109px;
   text-align: center;
-  padding: 17px 0;
+  padding: 1rem 0;
 }
 
 .button:active {
-  background: var(--terciariaPrincipal);
+  background: var(--terciaria);
 }
 
 .logo-rodape img {
   height: 20px;
   width: auto;
-  padding: 0 10px 25px 10px;
+  padding: 0 0.625rem 1.5rem 0.625rem;
 }

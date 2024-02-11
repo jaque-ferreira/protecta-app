@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
@@ -9,27 +9,29 @@
 </head>
 
 <body class="cadastro">
-  <img class="logo-login" src="img/protecta-logo.svg" alt="">
+  <h1 class="logo-cadastro"><img src="img/protecta-logo.svg" alt=""></h1>
 
   <div class="container">
     <div class="conteudo-cadastro">
-      <h1>Cadastre-se</h1>
+      <h2>Cadastre-se</h2>
 
       <form class="form-cadastro" action="">
-        <input type="text" placeholder="Nome Completo">
-        <input type="email" placeholder="E-mail">
-        <input id="nascimento" type="text" placeholder="Data de Nascimento">
-        <input id="cep" type="text" placeholder="CEP">
-        <input type="text" placeholder="CPF">
-        <input type="password" placeholder="Digite uma senha">
-        <input type="password" placeholder="Confirme sua senha">
+        <input type="text" name="cadastro" value="nome" placeholder="Nome Completo">
+        <input type="email" name="cadastro" value="email" placeholder="E-mail">
+        <div class="lado-a-lado">
+          <input id="nascimento" name="cadastro" value="data de nascimento" type="text" placeholder="Data de Nascimento">
+          <input id="cep" name="cadastro" value="CEP" type="text" placeholder="CEP">
+        </div>
+        <input type="text" name="cadastro" value="CPF" placeholder="CPF">
+        <input type="password" name="cadastro" value="senha" placeholder="Digite uma senha">
+        <input type="password" name="cadastro" value="confirmar senha" placeholder="Confirme sua senha">
       </form>
 
       <p>Já tenho uma conta, <a class="link-normal" href="login.html">acessar</a></p>
 
       <a class="button" href="questionario.html">Cadastre-se agora</a>
 
-      <p class="privacidade">Ao cadastrar concorda com a Política de Privacidade e os Termos de Uso. <a class="link-normal" href="">Acesse aqui</a>.</p>
+      <p class="privacidade">Ao cadastrar concorda com a Política de Privacidade<br> e os Termos de Uso. <a class="link-normal" href="">Acesse aqui</a>.</p>
 
       <div class="logo-rodape">
         <img src="img/fiotec-logo.svg" alt="">
