@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: "Mulish", sans-serif;
-  font-size: 12px;
+  font-size: 0.75rem;
   background-color: var(--fundoCor);
   color: var(--textoCor);
 
@@ -83,4 +83,104 @@ label {
   height: 20px;
   width: auto;
   padding: 0 0.625rem 1.5rem 0.625rem;
+}
+
+/* CARDS 1 COLUNA */
+
+.card-1col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 133px;
+  height: 133px;
+  border-radius: 1.25rem;
+  border: 1px solid var(--opacidade);
+}
+
+.card-1col h2 {
+  padding: 0 0.9rem 0.6rem 0.9rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-align: center;
+  color: var(--textoCor);
+}
+
+.card-1col img {
+  height: 60px;
+  width: auto;
+}
+
+/* FIM CARD 1 COLUNA */
+
+/* CARD 2 COLUNAS */
+
+.card-2col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  width: 298px;
+  height: 148px;
+  border-radius: 1.25rem;
+  border: 1px solid var(--opacidade);
+}
+
+.card-2col h2 {
+  display: flex;
+  position: relative;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: left;
+  color: var(--textoCor);
+}
+
+.card-2col p {
+  font-size: 0.75rem;
+  font-weight: 300;
+  text-align: left;
+  color: var(--textoCor);
+}
+
+.card-2col img {
+  height: 65px;
+  width: auto;
+}
+
+.card-2col h2::before {
+  content: "";
+  width: 165px;
+  height: 1px;
+  background: var(--opacidade);
+  position: absolute;
+  bottom: 0.7rem;
+}
+
+/* FIM CARD 2 COLUNAS */
+
+.protecta-logo-rodape {
+  width: 34px;
+  margin-bottom: 7rem;
+}
+
+/* MENU FIXO */
+.menu-fixo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translate(-50%);
+  gap: 4rem;
+  width: 320px;
+  height: 55px;
+  background: var(--opacidade);
+  border-radius: 3.75rem;
+}
+
+.menu-fixo img {
+  height: 1rem;
+  width: auto;
 }
