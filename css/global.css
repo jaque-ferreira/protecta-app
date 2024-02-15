@@ -12,9 +12,14 @@ body {
   --cinza: #f1f1f1;
 
   --primaria: #007aff;
-  --opacidade: #d3e8ff;
+  --primariaClara: #d3e8ff;
+  --maisClara: #ecf5ff;
+  --primariaEscura: #1a263c;
   --secundaria: #0bffa1;
-  --terciaria: #1a263c;
+}
+
+.bold {
+  font-weight: 700;
 }
 
 p,
@@ -25,7 +30,7 @@ h3 {
 }
 
 .container {
-  background: var(--opacidade);
+  background: var(--primariaClara);
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
   margin: 0;
@@ -49,13 +54,13 @@ input {
 }
 
 label {
-  color: var(--terciaria);
+  color: var(--primariaEscura);
   font-weight: 700;
   padding-left: 0.75rem;
 }
 
 .link-normal {
-  color: var(--terciaria);
+  color: var(--primariaEscura);
   font-weight: 300;
   text-decoration-line: underline;
 }
@@ -76,7 +81,7 @@ label {
 }
 
 .button:active {
-  background: var(--terciaria);
+  background: var(--primariaEscura);
 }
 
 .logo-rodape img {
@@ -95,7 +100,7 @@ label {
   width: 133px;
   height: 133px;
   border-radius: 1.25rem;
-  border: 1px solid var(--opacidade);
+  border: 1px solid var(--primariaClara);
 }
 
 .card-1col h2 {
@@ -123,7 +128,7 @@ label {
   width: 298px;
   height: 148px;
   border-radius: 1.25rem;
-  border: 1px solid var(--opacidade);
+  border: 1px solid var(--primariaClara);
 }
 
 .card-2col h2 {
@@ -152,7 +157,7 @@ label {
   content: "";
   width: 165px;
   height: 1px;
-  background: var(--opacidade);
+  background: var(--primariaClara);
   position: absolute;
   bottom: 0.7rem;
 }
@@ -176,11 +181,31 @@ label {
   gap: 4rem;
   width: 320px;
   height: 55px;
-  background: var(--opacidade);
+  background: var(--primariaClara);
   border-radius: 3.75rem;
 }
 
 .menu-fixo img {
   height: 1rem;
   width: auto;
+}
+
+/* RODAPE */
+.rodape {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rodape p {
+  font-size: 0.6875rem;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+.botao-voltar {
+  width: 24px;
+  margin: 1.3rem auto 0.9rem 1.6rem;
 }

@@ -20,7 +20,7 @@
 }
 
 .conteudo-cadastro h2 {
-  color: var(--terciaria);
+  color: var(--primariaEscura);
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;

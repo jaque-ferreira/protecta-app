@@ -23,43 +23,6 @@
   width: 269px;
 }
 
-/* MENU EXEMPLO */
-
-.linha1 {
-  content: "";
-  width: 16px;
-  height: 2px;
-  border-radius: 1.5rem;
-  background: black;
-  position: absolute;
-  top: 4.375rem;
-  right: 2rem;
-}
-
-.linha2 {
-  content: "";
-  width: 12px;
-  height: 1.5px;
-  border-radius: 1.5rem;
-  background: black;
-  position: absolute;
-  top: 4.688rem;
-  right: 2rem;
-}
-
-.linha3 {
-  content: "";
-  width: 16px;
-  height: 1.5px;
-  border-radius: 1.5rem;
-  background: black;
-  position: absolute;
-  top: 5rem;
-  right: 2rem;
-}
-
-/* FIM MENU EXEMPLO */
-
 .conteudo-header h1 {
   font-size: 1.25rem;
   margin-top: 2.5rem;
@@ -94,11 +57,11 @@
   color: var(--textoCor);
 }
 
-.conteudo-inicial .link-card-2col {
+.link-card-2col {
   text-decoration: none;
   font-size: 1rem;
 }
 
-.conteudo-inicial .link-card-2col {
+.card-2col {
   grid-column: span 2;
 }
