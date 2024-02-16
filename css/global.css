@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: "Mulish", sans-serif;
   font-size: 0.75rem;
+  line-height: 1.2rem;
   background-color: var(--fundoCor);
   color: var(--textoCor);
 
@@ -78,6 +79,10 @@ label {
   font-weight: 700;
   text-align: center;
   padding: 1rem 0;
+}
+
+.button:visited {
+  color: #fff;
 }
 
 .button:active {
@@ -208,4 +213,8 @@ label {
 .botao-voltar {
   width: 24px;
   margin: 1.3rem auto 0.9rem 1.6rem;
+}
+
+a:visited {
+  color: var(--primariaEscura);
 }

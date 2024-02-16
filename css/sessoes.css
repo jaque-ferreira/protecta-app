@@ -30,9 +30,10 @@
 .conteudo-sessoes-p {
   grid-column: span 2;
   font-size: 1rem;
+  line-height: 1.5rem;
   text-align: center;
   font-weight: 500;
-  margin: 0 3rem 4rem 3rem;
+  margin: 0 1.25rem 4rem 1.25rem;
 }
 
 .conteudo-sessoes-img {
@@ -65,6 +66,14 @@
   margin-bottom: 0.5rem;
 }
 
+.box-1col h2 {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 700;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
 /* FIM BOX 1 COLUNA */
 
 /* BOX 2 COLUNAS */
@@ -80,7 +89,7 @@
 
 .box-2col h2 {
   text-align: left;
-  margin: 2rem 2rem 0 2rem;
+  margin: 2rem 2rem -0.75rem 2rem;
   position: relative;
 }
 
@@ -94,12 +103,29 @@
 }
 
 .box-2col p {
-  margin: 0.9rem 2rem 2rem 2rem;
+  margin: 2rem 2rem 2rem 2rem;
   text-align: left;
+  line-height: 1.2rem;
+}
+
+.box-2col li {
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  font-size: 0.875rem;
+  text-align: left;
+  line-height: 1.2rem;
+  font-weight: 300;
 }
 
 .box-2col img {
   margin: 2rem auto 0 auto;
+}
+
+.box-2col .h2-lista {
+  font-size: 1rem;
+  margin: 2rem auto 1rem auto;
+  text-align: center;
+  font-weight: 500;
 }
 
 /* FIM BOX 2 COLUNAS */
@@ -111,4 +137,39 @@
   column-gap: 0.5rem;
   margin-left: auto;
   margin-right: auto;
+}
+
+.faca-autoavaliacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.faca-autoavaliacao h2 {
+  color: var(--primariaEscura);
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.faca-autoavaliacao p {
+  text-align: center;
+  font-size: 0.8125rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+.faca-autoavaliacao .button {
+  width: 210px;
+  margin-bottom: 2rem;
+}
+
+.faca-autoavaliacao .conteudo-sessoes-img {
+  margin-bottom: -2rem;
+}
+
+li::marker {
+  font-weight: 800;
 }
