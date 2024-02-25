@@ -3,7 +3,9 @@
 @import "./login.css";
 @import "./cadastro.css";
 @import "./questionario.css";
-@import "./pag-inicial.css";
+@import "./index.css";
 @import "./pontos-de-testagem.css";
 @import "./sessoes.css";
-@import "sintomas-teste.css";
+@import "./sintomas-teste.css";
+@import "./redefinir-senha.css";
+@import "./menu-usuario.css";

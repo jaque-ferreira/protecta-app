@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  background: var(--primaria);
 }
 
 .logo-cadastro {
@@ -10,7 +11,7 @@
 }
 
 .logo-cadastro img {
-  width: 113px;
+  width: 140px;
 }
 
 .conteudo-cadastro {

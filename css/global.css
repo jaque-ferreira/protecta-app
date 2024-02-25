@@ -11,10 +11,12 @@ body {
   --fundoCor: #fff;
   --textoCor: #1a263c;
   --cinza: #f1f1f1;
+  --branco: #fff;
 
   --primaria: #007aff;
-  --primariaClara: #d3e8ff;
-  --maisClara: #ecf5ff;
+  --primariaClara: #b4d8ff;
+  --primariaBordas: #b4d8ff;
+  --maisClara: #d3e8ff;
   --primariaEscura: #1a263c;
   --secundaria: #0bffa1;
 }
@@ -31,7 +33,7 @@ h3 {
 }
 
 .container {
-  background: var(--primariaClara);
+  background: var(--fundoCor);
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
   margin: 0;
@@ -49,8 +51,8 @@ input {
   width: 320px;
   height: 50px;
   border-radius: 0.625rem;
-  border-style: none;
-  background: #fff;
+  background: var(--branco);
+  border: 1px solid var(--primariaBordas);
   padding-left: 0.75rem;
 }
 
@@ -73,7 +75,7 @@ label {
 .button {
   border-radius: 1.875rem;
   background: var(--primaria);
-  color: #fff;
+  color: var(--branco);
   text-decoration: none;
   font-size: 0.875rem;
   font-weight: 700;
@@ -82,7 +84,7 @@ label {
 }
 
 .button:visited {
-  color: #fff;
+  color: var(--branco);
 }
 
 .button:active {
@@ -92,6 +94,7 @@ label {
 .logo-rodape img {
   height: 20px;
   width: auto;
+  opacity: 0.5;
   padding: 0 0.625rem 1.5rem 0.625rem;
 }
 
@@ -186,7 +189,7 @@ label {
   gap: 4rem;
   width: 320px;
   height: 55px;
-  background: var(--primariaClara);
+  background: var(--primaria);
   border-radius: 3.75rem;
 }
 

@@ -1,3 +1,7 @@
+.questionario {
+  background: var(--primaria);
+}
+
 .conteudo-questionario {
   display: flex;
   flex-direction: column;

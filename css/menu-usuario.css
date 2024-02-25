@@ -1,0 +1,138 @@
+.menu-usuario {
+  background: var(--primaria);
+}
+
+/* HEADER MENU */
+
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2.2rem;
+  margin-bottom: 3.8rem;
+}
+
+.header-menu img {
+  width: 43px;
+}
+
+.header-menu h1 {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+}
+
+/* FIM HEADER MENU */
+
+/* CONTEUDO MENU  */
+
+.conteudo-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 360px;
+  margin-inline: auto;
+}
+
+.lista-menu img {
+  width: 24px;
+}
+
+.button-menu {
+  display: flex;
+  width: 270px;
+  padding: 0.75rem;
+  align-items: center;
+  gap: 0.8rem;
+  text-decoration: none;
+  color: var(--primariaEscura);
+  border-radius: 0.625rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.button-menu:active {
+  background: var(--maisClara);
+  color: var(--primaria);
+}
+
+.conteudo-menu .button {
+  width: 260px;
+  margin-top: 2rem;
+  margin-bottom: 4.85rem;
+}
+
+.temas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.temas h2 {
+  color: var(--primariaEscura);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+}
+
+.temas h2::before {
+  content: "";
+  width: 320px;
+  height: 2px;
+  background: var(--primaria);
+  position: absolute;
+  top: -1rem;
+  left: -1.5rem;
+  opacity: 0.2;
+}
+
+/* BOTAO TEMAS EXEMPLO */
+
+.temas-opcoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  background: var(--primariaClara);
+  width: 265px;
+  height: 40px;
+  border-radius: 2.5rem;
+}
+
+.temas-opcoes button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  border-style: none;
+  background: none;
+  width: 125px;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: Mulish, sans-serif;
+}
+
+.temas-opcoes button img {
+  width: 24px;
+}
+
+button.botao-claro {
+  display: flex;
+  width: 125px;
+  height: 32px;
+  margin: 0.25rem;
+  border-radius: 32px;
+  color: var(--branco);
+  background: var(--primaria);
+}
+
+button.botao-escuro {
+  color: var(--primariaEscura);
+}
+
+/* BOTÃO TEMAS EXEMPLO FIM */
