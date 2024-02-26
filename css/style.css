@@ -7,5 +7,11 @@
 @import "./pontos-de-testagem.css";
 @import "./sessoes.css";
 @import "./sintomas-teste.css";
-@import "./redefinir-senha.css";
+@import "./recuperar-senha.css";
 @import "./menu-usuario.css";
+@import "./dados-pessoais.css";
+@import "./notificacoes.css";
+@import "./configuracoes.css";
+@import "./alterar-senha.css";
+@import "./privacidade.css";
+@import "./idioma.css";

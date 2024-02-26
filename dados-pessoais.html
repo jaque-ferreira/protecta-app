@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Protecta</title>
+</head>
+
+<body class="dados-pessoais">
+
+  <a href="menu-usuario.html"><img class="botao-voltar" src="img/voltar.svg" alt=""></a>
+
+  <div class="container">
+    <div class="conteudo-dados">
+      <h1>Dados pessoais</h1>
+
+      <form class="form-cadastro" action="">
+        <input type="text" name="cadastro" placeholder="Nome Completo">
+        <input type="email" name="cadastro" placeholder="E-mail">
+        <div class="lado-a-lado">
+          <input id="nascimento" name="cadastro" type="text" placeholder="Data de Nascimento">
+          <input id="cep" name="cadastro" type="number" placeholder="CEP">
+        </div>
+        <input type="number" name="cadastro" placeholder="CPF">
+      </form>
+
+      <form class="form-questionario" action="">
+        <legend>Possui alguma comorbidade?*</legend>
+        <div class="custom-radio">
+
+          <input id="sim_comorbidade" name="comorbidade" value="0" type="radio">
+          <label for="sim_comorbidade">Sim</label>
+
+          <input id="nao_comorbidade" name="comorbidade" value="1" type="radio">
+          <label for="nao_comorbidade">Não</label>
+
+        </div>
+
+        <legend>Recebeu vacinação para imunização completa contra o covid-19?</legend>
+        <div class="custom-radio">
+
+          <input id="sim_vacina" name="vacina" value="0" type="radio">
+          <label for="sim_vacina">Sim</label>
+
+          <input id="nao_vacina" name="vacina" value="1" type="radio">
+          <label for="nao_vacina">Não</label>
+
+        </div>
+      </form>
+
+      <a class="button" href="menu-usuario.html">Altere os dados</a>
+
+      <!-- RODAPE -->
+      <div class="rodape">
+        <img class="protecta-logo-rodape" src="img/protecta-icon-fundo-branco.svg" alt="">
+      </div>
+
+      <!-- MENU FIXO -->
+
+      <div class="menu-fixo">
+        <a href="pag-inicial.html"><img src="img/home.svg" alt=""></a>
+        <a href="autoavaliacao.html"><img src="img/autoavaliacao.svg" alt=""></a>
+        <a href="pontos-de-testagem.html"><img src="img/locais.svg" alt=""></a>
+      </div>
+
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>

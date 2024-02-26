@@ -1,0 +1,25 @@
+.dados-pessoais {
+  background: var(--primaria);
+}
+
+.conteudo-dados {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo-dados h1 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.conteudo-dados .form-questionario {
+  margin-top: 2rem;
+}
+
+.conteudo-dados .button {
+  width: 265px;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}
