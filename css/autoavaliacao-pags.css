@@ -1,0 +1,84 @@
+.conteudo-pags-autoavaliacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conteudo-pags-autoavaliacao h2 {
+  font-size: 1.5rem;
+  font-weight: 800;
+  line-height: 2rem;
+  text-align: center;
+  max-width: 250px;
+  margin-bottom: 2rem;
+}
+
+.p-autoavaliacao {
+  max-width: 280px;
+  margin-bottom: 1.85rem;
+  text-align: center;
+  font-size: 0.8125rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+
+table {
+  border: 1px solid var(--primariaBordas);
+  border-radius: 20px;
+  max-width: 320px;
+}
+
+td img {
+  width: 50px;
+}
+
+td {
+  border-bottom: 1px solid var(--primariaBordas);
+}
+
+td h3 {
+  padding-right: 1rem;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.1375rem;
+}
+
+td p {
+  padding-right: 2rem;
+  font-size: 0.75rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1rem;
+}
+
+.botao-avaliacao {
+  border-radius: 1.875rem;
+  color: var(--branco);
+  text-decoration: none;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem 0;
+  width: 210px;
+}
+
+.botao-avaliacao:visited {
+  color: var(--branco);
+}
+
+.botao-avaliacao:active {
+  background: var(--primariaEscura);
+}
+
+.botao-sim {
+  background: var(--primaria);
+  margin-top: 2rem;
+}
+
+.botao-nao {
+  background: var(--primariaEscura);
+  margin-top: 1.25rem;
+  margin-bottom: 6.5rem;
+}
