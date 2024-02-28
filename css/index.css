@@ -6,13 +6,6 @@
   flex-wrap: nowrap;
 }
 
-.header-container {
-  background-color: var(--primaria);
-  border-bottom-left-radius: 4.3rem;
-  border-bottom-right-radius: 4.3rem;
-  margin-bottom: 2rem;
-}
-
 .conteudo-header {
   display: flex;
   flex-direction: column;

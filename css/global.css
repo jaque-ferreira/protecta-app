@@ -22,7 +22,7 @@ body {
 }
 
 .bold {
-  font-weight: 700;
+  font-weight: 800;
 }
 
 p,
@@ -97,6 +97,15 @@ label {
   opacity: 0.5;
   padding: 0 0.625rem 1.5rem 0.625rem;
 }
+
+/* HEADER FUNDO AZUL */
+.header-container {
+  background-color: var(--primaria);
+  border-bottom-left-radius: 4.3rem;
+  border-bottom-right-radius: 4.3rem;
+  margin-bottom: 2rem;
+}
+/* FIM HEADER FUNDO AZUL */
 
 /* CARDS 1 COLUNA */
 
