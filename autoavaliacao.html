@@ -1,42 +1,461 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/style.css">
   <title>Protecta</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body class="autoavaliacao">
+<body>
 
-  <div class="header-container">
-    <a href="pag-inicial.html"><img class="botao-voltar" src="img/voltar.svg" alt=""></a>
-    <h1 class="h1-sessoes">Autoavaliação</h1>
-  </div>
+  <!-- TELA 1 -->
 
-  <div class="conteudo-autoavaliacao">
+  <section id="tela-1" class="tela atual">
 
-    <img src="img/autoavaliacao/img-principal.svg" alt="">
+    <div class="header-container-autoavaliacao">
+      <a href="autoavaliacao-paginicial.html"><img class="botao-voltar" src="img/voltar.svg" alt=""></a>
+      <h1 class="h1-sessoes">Autoavaliação</h1>
+    </div>
 
-    <p>Esta ferramenta <span class="bold">NÃO oferece um diagnóstico</span>, apenas recomendações necessárias a serem seguidas de acordo com seus sintomas.</p>
+    <div class="barra-de-carregamento">
+      <div class="progresso" style="width: 20%;"></div>
+    </div>
 
-    <a class="button" href="autoavaliacao-pag1.html">Começar autoavaliacao</a>
+    <div class="conteudo">
 
-    <a class="link-normal" href="privacidade.html">Política de privacidade</a>
-  </div>
+      <h2>Você tem algum <br>desses sintomas?</h2>
+
+      <table class="tabela-autoavaliacao">
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag1/img1.svg" alt="">
+          </td>
+          <td>
+            <h3>Falta de ar</h3>
+            <p>(dificuldade para respirar ou falar)</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag1/img2.svg" alt="">
+          </td>
+          <td>
+            <h3>Dor no peito intensa</h3>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag1/img3.svg" alt="">
+          </td>
+          <td>
+            <h3>Cansaço extremo</h3>
+            <p>(dificuldade para acordar ou permanecer acordado)</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag1/img4.svg" alt="">
+          </td>
+          <td>
+            <h3>Confusão ou desorientação</h3>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="border-bottom: none;">
+            <img src="img/autoavaliacao/pag1/img5.svg" alt="">
+          </td>
+          <td style="border-bottom: none;">
+            <h3>Perda de consciência</h3>
+          </td>
+        </tr>
+      </table>
+
+      <a href="resultado-emergencia.html" class="button btn-sim">Sim</a>
+
+      <div class="btns">
+        <a href="#tela-2" class="btn-avaliacao button btn-nao">Não</a>
+      </div>
+    </div>
+
+    <!-- MENU FIXO -->
+
+    <div class="menu-fixo">
+      <a href="pag-inicial.html"><img src="img/home.svg" alt=""></a>
+      <a href="autoavaliacao.html"><img src="img/autoavaliacao.svg" alt=""></a>
+      <a href="pontos-de-testagem.html"><img src="img/locais.svg" alt=""></a>
+    </div>
+  </section>
 
 
-  <!-- MENU FIXO -->
+  <!-- TELA 2 -->
+  <section id="tela-2" class="tela">
 
-  <div class="menu-fixo">
-    <a href="pag-inicial.html"><img src="img/home.svg" alt=""></a>
-    <a href="autoavaliacao.html"><img src="img/autoavaliacao.svg" alt=""></a>
-    <a href="pontos-de-testagem.html"><img src="img/locais.svg" alt=""></a>
-  </div>
+    <div class="header-container-autoavaliacao">
+      <a href="#tela-1" class="btn-avaliacao"><img class="botao-voltar" src="img/voltar.svg" alt=""></a>
+      <h1 class="h1-sessoes">Autoavaliação</h1>
+    </div>
+
+    <div class="barra-de-carregamento">
+      <div class="progresso" style="width: 40%;"></div>
+    </div>
+
+    <div class="conteudo">
+
+      <h2>Sua imunidade <br>está comprometida?</h2>
+
+      <table class="tabela-autoavaliacao">
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag2/img1.svg" alt="">
+          </td>
+          <td>
+            <h3>Está recebendo tratamento para câncer</h3>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag2/img2.svg" alt="">
+          </td>
+          <td>
+            <h3>Tem HIV avançado ou <br>não tratado</h3>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag2/img3.svg" alt="">
+          </td>
+          <td>
+            <h3>Com distúrbio combinado de imunodeficiência primária*</h3>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag2/img4.svg" alt="">
+          </td>
+          <td>
+            <h3>Em tratamento com prednisona</h3>
+            <p>(mais de 20 mg/dia ou equivalente, por mais de 14 dias)</p>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="border-bottom: none;">
+            <img src="img/autoavaliacao/pag2/img5.svg" alt="">
+          </td>
+          <td style="border-bottom: none;">
+            <h3>Em uso de outros remédios <br>que diminuem a ação do sistema imunológico</h3>
+          </td>
+        </tr>
+      </table>
+
+      <div class="btns">
+        <a href="#tela-3" class="btn-avaliacao button btn-sim">Sim</a>
+        <a href="#tela-3" class="btn-avaliacao button btn-nao">Não</a>
+      </div>
+
+    </div>
 
 
+    <!-- MENU FIXO -->
 
+    <div class="menu-fixo">
+      <a href="pag-inicial.html"><img src="img/home.svg" alt=""></a>
+      <a href="autoavaliacao.html"><img src="img/autoavaliacao.svg" alt=""></a>
+      <a href="pontos-de-testagem.html"><img src="img/locais.svg" alt=""></a>
+    </div>
+
+
+  </section>
+
+
+  <!-- TELA 3 -->
+  <section id="tela-3" class="tela">
+
+    <div class="header-container-autoavaliacao">
+      <a href="#tela-2" class="btn-avaliacao"><img class="botao-voltar" src="img/voltar.svg" alt=""></a>
+      <h1 class="h1-sessoes">Autoavaliação</h1>
+    </div>
+
+    <div class="barra-de-carregamento">
+      <div class="progresso" style="width: 60%;"></div>
+    </div>
+
+    <div class="conteudo">
+
+      <h2>Você teve contato <br>com alguém que... </h2>
+
+      <table class="tabela-autoavaliacao">
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag3/img1.svg" alt="">
+          </td>
+          <td>
+            <h3>Testou positivo para o Coronavírus</h3>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag3/img2.svg" alt="">
+          </td>
+          <td>
+            <h3>Está com COVID-19</h3>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="border-bottom: none;">
+            <img src="img/autoavaliacao/pag3/img3.svg" alt="">
+          </td>
+          <td style="border-bottom: none;">
+            <h3>Está sendo avaliado</h3>
+            <p>(pessoa sob suspeita)</p>
+          </td>
+        </tr>
+      </table>
+
+      <div class="btns">
+        <a href="#tela-4" class="btn-avaliacao button btn-sim">Sim</a>
+        <a href="#tela-4" class="btn-avaliacao button btn-nao">Não</a>
+      </div>
+
+    </div>
+
+    <!-- MENU FIXO -->
+
+    <div class="menu-fixo">
+      <a href="pag-inicial.html"><img src="img/home.svg" alt=""></a>
+      <a href="autoavaliacao.html"><img src="img/autoavaliacao.svg" alt=""></a>
+      <a href="pontos-de-testagem.html"><img src="img/locais.svg" alt=""></a>
+    </div>
+
+
+  </section>
+
+
+  <!-- TELA 4 -->
+  <section id="tela-4" class="tela">
+
+    <div class="header-container-autoavaliacao">
+      <a href="#tela-3" class="btn-avaliacao"><img class="botao-voltar" src="img/voltar.svg" alt=""></a>
+      <h1 class="h1-sessoes">Autoavaliação</h1>
+    </div>
+
+    <div class="barra-de-carregamento">
+      <div class="progresso" style="width: 80%;"></div>
+    </div>
+
+    <div class="conteudo">
+
+      <h2>Nos últimos 10 dias, <br>você testou positivo<br> para COVID-19?</h2>
+
+      <p class="p-autoavaliacao">Isso inclui um resultado positivo para o teste
+        de COVID-19 sendo:</p>
+
+      <table class="tabela-autoavaliacao">
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag4/img1.svg" alt="">
+          </td>
+          <td>
+            <h3>Teste RT-PCR de laboratório</h3>
+          </td>
+        </tr>
+
+        <tr>
+          <td class="td-img">
+            <img src="img/autoavaliacao/pag4/img2.svg" alt="">
+          </td>
+          <td>
+            <h3>Teste rápido de antígeno</h3>
+          </td>
+        </tr>
+
+        <tr>
+          <td style="border-bottom: none;">
+            <img src="img/autoavaliacao/pag4/img3.svg" alt="">
+          </td>
+          <td style="border-bottom: none;">
+            <h3>Kit de autoteste domiciliar</h3>
+          </td>
+        </tr>
+      </table>
+
+      <div class="btns">
+        <a href="#tela-5" class="btn-avaliacao button btn-sim">Sim</a>
+        <a href="#tela-5" class="btn-avaliacao button btn-nao">Não</a>
+      </div>
+
+    </div>
+
+    <!-- MENU FIXO -->
+
+    <div class="menu-fixo">
+      <a href="pag-inicial.html"><img src="img/home.svg" alt=""></a>
+      <a href="autoavaliacao.html"><img src="img/autoavaliacao.svg" alt=""></a>
+      <a href="pontos-de-testagem.html"><img src="img/locais.svg" alt=""></a>
+    </div>
+
+  </section>
+
+
+  <!-- TELA 5 -->
+  <section id="tela-5" class="tela">
+
+    <div class="header-container-autoavaliacao">
+      <a href="#tela-4" class="btn-avaliacao"><img class="botao-voltar" src="img/voltar.svg" alt=""></a>
+      <h1 class="h1-sessoes">Autoavaliação</h1>
+    </div>
+
+    <div class="barra-de-carregamento">
+      <div class="progresso" style="width: 100%;"></div>
+    </div>
+
+    <div class="conteudo">
+
+      <h2>Selecione seus sintomas</h2>
+
+      <div class="sintomas-buttons">
+
+        <label for="febre" class="btn-escolha switch" data-name="Febre">
+          <input type="checkbox" id="febre">
+          <div class="marcado">
+            <h3>Febre ou calafrios</h3>
+            <img src="img/autoavaliacao/pag5/img1.svg" alt="">
+          </div>
+        </label>
+
+        <label for="tosse" class="btn-escolha switch" data-name="Tosse">
+          <input type="checkbox" id="tosse">
+          <div class="marcado">
+            <h3>Tosse</h3>
+            <img src="img/autoavaliacao/pag5/img2.svg" alt="">
+          </div>
+        </label>
+
+        <label for="falta-de-ar" class="btn-escolha switch" data-name="Falta de ar">
+          <input type="checkbox" id="falta-de-ar">
+          <div class="marcado">
+            <h3>Falta de ar</h3>
+            <img src="img/autoavaliacao/pag5/img3.svg" alt="">
+          </div>
+        </label>
+
+        <label for="olfato-paladar" class="btn-escolha switch" data-name="Perda de olfato e paladar">
+          <input type="checkbox" id="olfato-paladar">
+          <div class="marcado">
+            <h3>Perda de olfato ou paladar</h3>
+            <img src="img/autoavaliacao/pag5/img4.svg" alt="">
+          </div>
+        </label>
+
+        <label for="dor-corpo" class="btn-escolha switch" data-name="Dores">
+          <input type="checkbox" id="dor-corpo">
+          <div class="marcado">
+            <h3>Dores no corpo ou músculos</h3>
+            <img src="img/autoavaliacao/pag5/img5.svg" alt="">
+          </div>
+        </label>
+
+        <label for="cansaco" class="btn-escolha switch" data-name="Cansaço">
+          <input type="checkbox" id="cansaco">
+          <div class="marcado">
+            <h3>Cansaço extremo</h3>
+            <img src="img/autoavaliacao/pag5/img6.svg" alt="">
+          </div>
+        </label>
+
+        <label for="dor-garganta" class="btn-escolha switch" data-name="Dor de garganta">
+          <input type="checkbox" id="dor-garganta">
+          <div class="marcado">
+            <h3>Dor de garganta</h3>
+            <img src="img/autoavaliacao/pag5/img7.svg" alt="">
+          </div>
+        </label>
+
+        <label for="dor-cabeca" class="btn-escolha switch" data-name="Dor de cabeça">
+          <input type="checkbox" id="dor-cabeca">
+          <div class="marcado">
+            <h3>Dor de cabeça</h3>
+            <img src="img/autoavaliacao/pag5/img8.svg" alt="">
+          </div>
+        </label>
+
+        <label for="coriza" class="btn-escolha switch" data-name="Coriza">
+          <input type="checkbox" id="coriza">
+          <div class="marcado">
+            <h3>Coriza</h3>
+            <img src="img/autoavaliacao/pag5/img9.svg" alt="">
+          </div>
+        </label>
+
+        <label for="espirros" class="btn-escolha switch" data-name="Espirros">
+          <input type="checkbox" id="espirros">
+          <div class="marcado">
+            <h3>Espirros</h3>
+            <img src="img/autoavaliacao/pag5/img10.svg" alt="">
+          </div>
+        </label>
+
+        <label for="diarreia" class="btn-escolha switch" data-name="Diarreia">
+          <input type="checkbox" id="diarreia">
+          <div class="marcado">
+            <h3>Diarreia</h3>
+            <img src="img/autoavaliacao/pag5/img11.svg" alt="">
+          </div>
+        </label>
+
+        <label for="apetite" class="btn-escolha switch" data-name="Perda de apetite">
+          <input type="checkbox" id="apetite">
+          <div class="marcado">
+            <h3>Perda de apetite</h3>
+            <img src="img/autoavaliacao/pag5/img12.svg" alt="">
+          </div>
+        </label>
+
+        <label for="vomito" class="btn-escolha switch" data-name="Vomito">
+          <input type="checkbox" id="vomito">
+          <div class="marcado">
+            <h3>Enjoo ou vômito</h3>
+            <img src="img/autoavaliacao/pag5/img13.svg" alt="">
+          </div>
+        </label>
+
+        <label for="nenhum" class="btn-escolha switch" data-name="Nenhum">
+          <input type="checkbox" id="nenhum">
+          <div class="marcado">
+            <h3>Nenhum sintoma citado</h3>
+            <img src="img/autoavaliacao/pag5/img14.svg" alt="">
+          </div>
+        </label>
+
+
+      </div>
+
+      <div class="btns">
+        <a href="#" class="button btn-finalizar" id="finalizar">Finalizar</a>
+      </div>
+
+      <!-- MENU FIXO -->
+
+      <div class="menu-fixo">
+        <a href="pag-inicial.html"><img src="img/home.svg" alt=""></a>
+        <a href="autoavaliacao.html"><img src="img/autoavaliacao.svg" alt=""></a>
+        <a href="pontos-de-testagem.html"><img src="img/locais.svg" alt=""></a>
+      </div>
+  </section>
+
+  <script src="scripts/passagem-de-telas.js"></script>
+  <script src="scripts/salvar-dados.js"></script>
 
 </body>
 
