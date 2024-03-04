@@ -20,9 +20,13 @@
   font-weight: 700;
 }
 
+.img-questionario {
+  width: 220px;
+}
+
 .conteudo-questionario img {
   margin-top: 2.6rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .form-questionario {
