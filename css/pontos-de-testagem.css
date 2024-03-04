@@ -31,3 +31,92 @@
   width: 265px;
   margin-top: 2rem;
 }
+.button-pontos {
+  border: none;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.32);
+  backdrop-filter: blur(2px);
+  visibility: hidden;
+  opacity: 0;
+  transition: .3s linear;
+}
+
+.modal.aberto{
+  visibility: visible;
+  opacity: 1;
+  transition: .3s linear;
+}
+
+.modal-container {
+  position: relative;
+  width: 318px;
+  height: 350px;
+  border-radius: 15px;
+  background: var(--branco);
+  box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+  padding-inline: 1.8rem;
+}
+
+.modal-container img {
+  width: 12px;
+}
+
+.modal-fechar{
+  height: 32px;
+  width: 32px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 22px;
+  right: 22px;
+}
+
+.modal-container h1 {
+  font-size: 1.25rem;
+  color: var(--primariaEscuro);
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  position: relative;
+}
+
+.modal-container h2 {
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.modal-container p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.modal-container h1::before{
+  content: "";
+  width: 250px;
+  height: 1px;
+  background: var(--maisClara);
+  position: absolute;
+  bottom: -0.7rem;
+}
+
+.modal-container a {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1rem;
+  }

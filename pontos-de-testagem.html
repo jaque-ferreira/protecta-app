@@ -5,6 +5,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="manifest" crossorigin="use-credentials" href="manifest.json">
+  <meta name="theme-color" content="#fff" />
+  <link rel="apple-touch-icon" href="img/icon-192.png">
   <title>Protecta</title>
 </head>
 
@@ -22,14 +25,14 @@
 
     <input type="number" placeholder="Digite seu CEP">
 
-    <a class="button" href="">Buscar pontos de testagem</a>
+    <button class="button button-pontos">Buscar pontos de testagem</button>
   </div>
 
   <!-- RODAPE -->
 
   <div class="rodape">
     <p>Para mais informações acesse: <a href="https://www.gov.br/saude/pt-br/assuntos/coronavirus">Ministérios da Saúde</a></p>
-
+ 
     <img class="protecta-logo-rodape" src="img/protecta-icon-fundo-branco.svg" alt="">
   </div>
 
@@ -41,6 +44,35 @@
     <a href="pontos-de-testagem.html"><img src="img/locais.svg" alt=""></a>
   </div>
 
+  <div class="modal">
+    <div class="modal-container">
+      <button class="modal-fechar"><img src="img/pontos-de-testagem/exit.svg" alt=""></button>
+
+      <h1>Jardim Mangueral</h1>
+
+      <h2>Endereço:</h2>
+      <p>Jardins Mangueiral - São Sebastião, Brasília - DF, 70297-400</p>
+
+      <h2>Horário de Funcionamento:</h2>
+      <p>07h às 19h de segunda a sexta, e sábado das 07h às 12h</p>
+
+      <a href=""><img src="img/pontos-de-testagem/rota.svg" alt="">Traçar rota</a>
+    </div>
+  </div>
+
+  <script>
+    const botaoPontos = document.querySelector(".button-pontos");
+    const modal = document.querySelector(".modal");
+    const modalFechar = document.querySelector(".modal-fechar");
+
+    botaoPontos.addEventListener("click", function() {
+      modal.classList.add("aberto");
+    })
+
+    modalFechar.addEventListener("click", function() {
+      modal.classList.remove("aberto");
+    })
+  </script>
 
 </body>
 

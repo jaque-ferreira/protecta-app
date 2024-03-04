@@ -201,16 +201,14 @@ input:checked + .marcado {
   top: 0;
   left: 0;
   width: 100%;
-  visibility: hidden;
-  display: flex;
+  display: none;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
 }
 
 .tela.atual {
   position: relative;
-  visibility: visible;
+  display: flex;
 }
 
 .barra-de-carregamento {
