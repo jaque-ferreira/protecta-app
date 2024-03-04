@@ -27,10 +27,29 @@
   position: absolute;
   top: 3.73rem;
   right: 1.25rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .menu-lateral img {
   width: 30px;
+}
+
+.menu-lateral a{
+  height: 30px;
+}
+
+#btn-instalar {
+  height: 30px;
+  width: 30px;
+  border: none;
+  border-radius: 20px;
+  background: var(--branco);
+}
+
+#btn-instalar img {
+  width: 20px;
 }
 
 /* FIM MENU LATERAL */
