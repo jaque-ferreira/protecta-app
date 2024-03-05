@@ -55,21 +55,21 @@
   line-height: 1.3rem;
 }
 
-table {
+.tabela-autoavaliacao {
   border: none;
   max-width: 320px;
 }
 
-td img {
+.tabela-autoavaliacao td img {
   width: 50px;
   margin: 1rem;
 }
 
-td {
+.tabela-autoavaliacao td {
   border-bottom: 1px solid var(--primariaBordas);
 }
 
-td h3 {
+.tabela-autoavaliacao td h3 {
   padding-right: 1rem;
   font-size: 0.875rem;
   font-style: normal;
@@ -77,7 +77,7 @@ td h3 {
   line-height: 1.1375rem;
 }
 
-td p {
+.tabela-autoavaliacao td p {
   padding-right: 2rem;
   font-size: 0.75rem;
   font-style: italic;

@@ -8,7 +8,7 @@
   <link rel="manifest" crossorigin="use-credentials" href="manifest.json">
   <meta name="theme-color" content="#fff" />
   <link rel="apple-touch-icon" href="img/icon-192.png">
-  <title>Protecta</title>
+  <title>Menu</title>
 </head>
 
 <body class="menu-usuario">
@@ -51,12 +51,40 @@
 
       <div class="temas">
 
-        <h2>Personalize as cores do aplicativo</h2>
+        <h2 class="temas-h2">Personalize as cores do aplicativo</h2>
 
 
         <div class="temas-opcoes">
-          <button class="botao-claro"><img src="img/menu-usuario/claro.svg" alt="">Claro</button>
-          <button class="botao-escuro"><img src="img/menu-usuario/escuro.svg" alt="">Escuro</button>
+          <label class="temas-switch" for="botao-claro">
+            <input id="botao-claro" type="radio" name="tema" checked>
+            <div class="tema-marcado">
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.75 17.9999C16.0637 17.9999 18.75 15.3136 18.75 11.9999C18.75 8.68623 16.0637 5.99994 12.75 5.99994C9.43629 5.99994 6.75 8.68623 6.75 11.9999C6.75 15.3136 9.43629 17.9999 12.75 17.9999Z" fill="#1A263C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7452 1.49994C13.2975 1.49994 13.7452 1.94765 13.7452 2.49994V3.49994C13.7452 4.05222 13.2975 4.49994 12.7452 4.49994C12.1929 4.49994 11.7452 4.05222 11.7452 3.49994V2.49994C11.7452 1.94765 12.1929 1.49994 12.7452 1.49994Z" fill="#1A263C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.7452 19.4999C13.2975 19.4999 13.7452 19.9477 13.7452 20.4999V21.4967C13.7452 22.049 13.2975 22.4967 12.7452 22.4967C12.1929 22.4967 11.7452 22.049 11.7452 21.4967V20.4999C11.7452 19.9477 12.1929 19.4999 12.7452 19.4999Z" fill="#1A263C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M2.24683 11.9983C2.24683 11.446 2.69454 10.9983 3.24683 10.9983H4.24683C4.79911 10.9983 5.24683 11.446 5.24683 11.9983C5.24683 12.5506 4.79911 12.9983 4.24683 12.9983H3.24683C2.69454 12.9983 2.24683 12.5506 2.24683 11.9983Z" fill="#1A263C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M20.2468 11.9983C20.2468 11.446 20.6945 10.9983 21.2468 10.9983H22.2436C22.7959 10.9983 23.2436 11.446 23.2436 11.9983C23.2436 12.5506 22.7959 12.9983 22.2436 12.9983H21.2468C20.6945 12.9983 20.2468 12.5506 20.2468 11.9983Z" fill="#1A263C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.32183 19.4218C4.93131 19.0313 4.93131 18.3981 5.32183 18.0076L6.02894 17.3005C6.41946 16.91 7.05263 16.91 7.44315 17.3005C7.83367 17.691 7.83367 18.3242 7.44315 18.7147L6.73604 19.4218C6.34552 19.8123 5.71235 19.8123 5.32183 19.4218Z" fill="#1A263C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0498 6.69388C17.6592 6.30336 17.6592 5.67019 18.0498 5.27967L18.7546 4.57484C19.1451 4.18432 19.7783 4.18432 20.1688 4.57484C20.5593 4.96536 20.5593 5.59853 20.1688 5.98905L19.464 6.69388C19.0734 7.08441 18.4403 7.08441 18.0498 6.69388Z" fill="#1A263C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M5.32183 4.57484C5.71235 4.18432 6.34552 4.18432 6.73604 4.57484L7.44315 5.28195C7.83367 5.67247 7.83367 6.30564 7.44315 6.69616C7.05263 7.08669 6.41946 7.08669 6.02894 6.69616L5.32183 5.98905C4.93131 5.59853 4.93131 4.96536 5.32183 4.57484Z" fill="#1A263C"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M18.0498 17.3028C18.4403 16.9122 19.0734 16.9122 19.464 17.3028L20.1688 18.0076C20.5593 18.3981 20.5593 19.0313 20.1688 19.4218C19.7783 19.8123 19.1451 19.8123 18.7546 19.4218L18.0498 18.717C17.6592 18.3265 17.6592 17.6933 18.0498 17.3028Z" fill="#1A263C"/>
+                </svg>
+              <h3>Claro</h3>
+            </div>
+          </label>
+
+          <label class="temas-switch" for="botao-escuro">
+            <input id="botao-escuro" type="radio" name="tema">
+            <div class="tema-marcado">
+              <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M8.31567 6.02545C6.46318 7.28656 5.25 9.41144 5.25 11.8165C5.25 15.6825 8.38401 18.8165 12.25 18.8165C14.6551 18.8165 16.7799 17.6033 18.0411 15.7508C12.9317 15.1923 8.87421 11.1348 8.31567 6.02545ZM19.25 13.8165C20.116 13.8165 20.8618 14.5798 20.5191 15.3751C19.1398 18.5758 15.9566 20.8165 12.25 20.8165C7.27944 20.8165 3.25 16.7871 3.25 11.8165C3.25 8.10993 5.49067 4.9267 8.6914 3.54743C9.48674 3.20469 10.25 3.95047 10.25 4.81652C10.25 9.78708 14.2794 13.8165 19.25 13.8165Z" fill="#1A263C"/>
+                </svg>
+              <h3>Escuro</h3>
+            </div>
+          </label>
+
+          <!-- <input class="botao-claro"><img src="img/menu-usuario/claro.svg" alt="">Claro</button>
+          <input class="botao-escuro"><img src="img/menu-usuario/escuro.svg" alt="">Escuro</button> -->
         </div>
 
 

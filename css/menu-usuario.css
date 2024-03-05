@@ -91,7 +91,7 @@
 
 /* BOTAO TEMAS EXEMPLO */
 
-.temas-opcoes {
+/* .temas-opcoes {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -133,6 +133,67 @@ button.botao-claro {
 
 button.botao-escuro {
   color: var(--primariaEscura);
-}
+} */
 
 /* BOTÃO TEMAS EXEMPLO FIM */
+
+.temas-opcoes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.25rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  background: var(--primariaBordas);
+  width: 265px;
+  height: 40px;
+  border-radius: 2.5rem;
+}
+/* 
+.temas-opcoes label {
+  width: 126.5px;
+  height: 32px;
+} */
+
+.temas-switch {
+  position: relative;
+  display: inline-block;
+  width: 126.5px;
+  height: 32px;
+}
+
+.temas-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.tema-marcado {
+  display: flex;
+  justify-content: left;
+  gap: 0.5rem;
+  align-items: center;
+  width: 126.5px;
+  height: 32px;
+  padding: 0.75rem;
+  border-radius: 2.5rem;
+  margin-bottom: 1rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+input:checked + .tema-marcado {
+  background-color: var(--primaria);
+  border-radius: 2.5rem;
+  padding: 0.75rem;
+  border: none;
+  color: var(--branco);
+  font-weight: 800;
+}
+
+input:checked + .tema-marcado svg path {
+ fill: var(--branco);
+}
