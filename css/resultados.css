@@ -86,29 +86,14 @@
   font-weight: 800;
 }
 
+.resultados-redirecionamento {
+  color: var(--textoCor);
+}
+
 .resultados-redirecionamento:active {
   color: var(--primaria);
 }
 
-/* .resultados-texto-grande {
-  display: flex;
-  justify-content: top;
-  width: 320px;
-  margin-bottom: 0;
+.resultados-redirecionamento:visited {
+  color: var(--textoCor);
 }
-
-.resultados-texto-grande img {
-  width: 50px;
-  margin-block: 1rem;
-  margin-left: 1.5rem;
-  margin-right: 1rem;
-}
-
-.resultados-texto-grande p {
-  font-size: 0.875rem;
-  font-weight: 600;
-  line-height: 1.225rem;
-  padding-top: 1.2rem;
-  margin-left: 0.25rem;
-  margin-right: 1.5rem;
-} */
