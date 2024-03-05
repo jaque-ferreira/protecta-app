@@ -6,9 +6,24 @@
   flex-wrap: nowrap;
 }
 
-.sessoes .header-container {
+.teste {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 140px;
   background: var(--primaria);
   margin-bottom: 2rem;
+  border-bottom-left-radius: 4.3rem;
+  border-bottom-right-radius: 4.3rem;
+}
+
+.teste img {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  height: 24px;
+  width: fit-content;
 }
 
 .h1-sessoes {
@@ -16,7 +31,7 @@
   text-align: center;
   font-size: 1.5rem;
   font-weight: 700;
-  padding-top: 1rem;
+  padding-top: 4rem;
   padding-bottom: 2rem;
 }
 
@@ -172,4 +187,15 @@
 
 li::marker {
   font-weight: 800;
+  padding-left: 2rem;
+}
+
+ul {
+  padding-left: 2rem;
+  padding-block: 1rem;
+}
+
+ol {
+  padding-left: 2.5rem;
+  padding-block: 1rem;
 }

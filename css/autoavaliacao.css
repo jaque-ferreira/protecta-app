@@ -8,7 +8,7 @@
 
 .autoavaliacao .header-container {
   background: var(--primaria);
-  margin-bottom: 2rem;
+  margin-bottom: 4.5rem;
 }
 
 .conteudo-autoavaliacao {
@@ -18,8 +18,8 @@
 }
 
 .conteudo-autoavaliacao img {
-  width: 320px;
-  margin-bottom: 2rem;
+  width: 140px;
+  margin-bottom: 4rem;
 }
 
 .conteudo-autoavaliacao p {

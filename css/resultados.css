@@ -86,6 +86,10 @@
   font-weight: 800;
 }
 
+.resultados-redirecionamento:active {
+  color: var(--primaria);
+}
+
 /* .resultados-texto-grande {
   display: flex;
   justify-content: top;

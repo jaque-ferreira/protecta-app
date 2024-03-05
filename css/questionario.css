@@ -2,6 +2,10 @@
   background: var(--primaria);
 }
 
+.container-header-menor {
+  top: 80px;
+}
+
 .conteudo-questionario {
   display: flex;
   flex-direction: column;

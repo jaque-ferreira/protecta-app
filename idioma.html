@@ -19,8 +19,24 @@
   </div>
 
   <div class="conteudo-idioma">
-    <button class="idioma-pt"><img src="img/idioma/portugues.svg" alt="">Português</button>
-    <button class="idioma-en"><img src="img/idioma/ingles.svg" alt="">Inglês</button>
+
+    <div class="idioma-radio">
+      <label class="idioma-switch" for="idioma-pt">
+        <input id="idioma-pt" type="radio" name="idioma" checked>
+        <div class="idioma-marcado">
+          <img src="img/idioma/portugues.svg" alt="">
+          <h2>Português</h2>
+        </div>
+      </label>
+
+      <label class="idioma-switch" for="idioma-en">
+        <input id="idioma-en" type="radio" name="idioma">
+        <div class="idioma-marcado">
+          <img src="img/idioma/ingles.svg" alt="">
+          <h2>Inglês</h2>
+        </div>
+      </label>
+    </div>
 
     <a class="button" href="menu-usuario.html">Escolher idioma</a>
   </div>
@@ -34,9 +50,9 @@
   <!-- MENU FIXO -->
 
   <div class="menu-fixo">
-    <a href="pag-inicial.html"><img src="img/home.svg" alt=""></a>
-    <a href="autoavaliacao.html"><img src="img/autoavaliacao.svg" alt=""></a>
-    <a href="pontos-de-testagem.html"><img src="img/locais.svg" alt=""></a>
+    <a href="pag-inicial.html"><img class="img-menu-fixo" src="img/home.svg" alt=""></a>
+    <a href="autoavaliacao-paginicial.html"><img class="img-menu-fixo" src="img/autoavaliacao.svg" alt=""></a>
+    <a href="pontos-de-testagem.html"><img class="img-menu-fixo" src="img/locais.svg" alt=""></a>
   </div>
 
   <script src="service-worker.js"></script>

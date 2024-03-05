@@ -32,16 +32,16 @@
 
   <div class="rodape">
     <p>Para mais informações acesse: <a href="https://www.gov.br/saude/pt-br/assuntos/coronavirus">Ministérios da Saúde</a></p>
- 
+
     <img class="protecta-logo-rodape" src="img/protecta-icon-fundo-branco.svg" alt="">
   </div>
 
   <!-- MENU FIXO -->
 
   <div class="menu-fixo">
-    <a href="pag-inicial.html"><img src="img/home.svg" alt=""></a>
-    <a href="autoavaliacao.html"><img src="img/autoavaliacao.svg" alt=""></a>
-    <a href="pontos-de-testagem.html"><img src="img/locais.svg" alt=""></a>
+    <a href="pag-inicial.html"><img class="img-menu-fixo" src="img/home.svg" alt=""></a>
+    <a href="autoavaliacao-paginicial.html"><img class="img-menu-fixo" src="img/autoavaliacao.svg" alt=""></a>
+    <a href="pontos-de-testagem.html"><img class="img-menu-fixo menu-ativo" src="img/locais.svg" alt=""></a>
   </div>
 
   <div class="modal">
@@ -65,15 +65,15 @@
     const modal = document.querySelector(".modal");
     const modalFechar = document.querySelector(".modal-fechar");
 
-    botaoPontos.addEventListener("click", function() {
+    botaoPontos.addEventListener("click", function () {
       modal.classList.add("aberto");
     })
 
-    modalFechar.addEventListener("click", function() {
+    modalFechar.addEventListener("click", function () {
       modal.classList.remove("aberto");
     })
   </script>
-<script src="service-worker.js"></script>
+  <script src="service-worker.js"></script>
 </body>
 
 </html>

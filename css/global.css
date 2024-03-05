@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -20,9 +20,9 @@ body {
   --branco: #fff;
 
   --primaria: #007aff;
-  --primariaClara: #b4d8ff;
+  --primariaClara: #ddeeff;
   --primariaBordas: #b4d8ff;
-  --maisClara: #d3e8ff;
+  --maisClara: #e9f4ff;
   --primariaEscura: #1a263c;
   --secundaria: #0bffa1;
 }
@@ -31,7 +31,7 @@ body {
   font-weight: 700;
 }
 
-p a{
+p a {
   color: var(--primaria);
 }
 
@@ -42,12 +42,21 @@ h3 {
   margin: 0;
 }
 
+.header-inicio {
+  background: var(--primaria);
+  display: flex;
+  justify-content: center;
+  height: 500px;
+}
+
 .container {
+  position: absolute;
+  top: 130px;
+  width: 100%;
   background: var(--fundoCor);
   border-top-left-radius: 3rem;
   border-top-right-radius: 3rem;
   margin: 0;
-  /* height: 100vh; */
 }
 
 form {
@@ -73,7 +82,7 @@ label {
 }
 
 .link-normal {
-  color: var(--primariaEscura);
+  color: var(--primaria);
   font-weight: 300;
   text-decoration-line: underline;
 }
@@ -105,7 +114,8 @@ label {
   height: 20px;
   width: auto;
   opacity: 0.5;
-  padding: 0 0.625rem 1.5rem 0.625rem;
+  padding-inline: 0.5rem;
+  margin-block: 1rem;
 }
 
 /* HEADER FUNDO AZUL */
@@ -212,9 +222,14 @@ label {
   border-radius: 3.75rem;
 }
 
-.menu-fixo img {
+.img-menu-fixo {
   height: 1rem;
   width: auto;
+  opacity: 0.5;
+}
+
+.menu-ativo {
+  opacity: 1;
 }
 
 /* RODAPE */
@@ -233,10 +248,11 @@ label {
 }
 
 .botao-voltar {
+  position: absolute;
   width: 24px;
-  margin: 1.3rem auto 0.9rem 1.6rem;
+  margin: 2rem auto 0.9rem 1.6rem;
 }
 
-a:visited {
-  color: var(--primariaEscura);
+.link-normal:visited {
+  color: var(--primaria);
 }

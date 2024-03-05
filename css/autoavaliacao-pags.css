@@ -15,18 +15,19 @@
   margin-bottom: 2rem;
 }
 
-.header-container-autoavaliacao h1 {
+.h1-autoavaliacao {
   font-size: 1.25rem;
   text-align: center;
   margin-inline: auto;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   font-weight: 700;
+  color: var(--branco);
 }
 
 .header-container-autoavaliacao .botao-voltar {
   position: absolute;
-  top: 1.6rem;
+  top: 1rem;
 }
 
 .conteudo {
@@ -55,14 +56,13 @@
 }
 
 table {
-  border: 1px solid var(--primariaBordas);
-  border-radius: 20px;
+  border: none;
   max-width: 320px;
 }
 
 td img {
   width: 50px;
-  padding: 1rem;
+  margin: 1rem;
 }
 
 td {

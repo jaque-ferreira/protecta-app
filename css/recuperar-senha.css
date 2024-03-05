@@ -3,7 +3,14 @@
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
-  background-color: var(--primaria);
+  background-color: var(--fundoCor);
+}
+
+.header-senha {
+  display: flex;
+  height: 500px;
+  background: var(--primaria);
+  position: relative;
 }
 
 .logo-senha {

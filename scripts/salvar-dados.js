@@ -3,8 +3,25 @@ const btnEscolhaInput = document.querySelectorAll(".btn-escolha input");
 const btnFinalizar = document.querySelector("#finalizar");
 let btnFinalizarLink = btnFinalizar.href;
 let listaDeEscolhasUsuario = [];
-let listaRecomendadoTeste = ["Tosse", "Febre", "Coriza", "Diarréia"];
-let listaNaoRecomendadoTeste = ["Espirros"];
+let listaRecomendadoTeste = [
+  "Tosse",
+  "Febre",
+  "Falta de ar",
+  "Perda de olfato ou paladar",
+];
+let listaNaoRecomendadoTeste = [
+  "Espirros",
+  "Dores no corpo",
+  "Cansaço",
+  "Dor de garganta",
+  "Dor de cabeça",
+  "Coriza",
+  "Espirros",
+  "Diarreia",
+  "Perda de apetite",
+  "Vomito",
+  "Nenhum",
+];
 
 function detectarNecessidade() {
   let verificarArray = listaDeEscolhasUsuario.some((r) =>
